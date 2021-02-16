@@ -1,0 +1,31 @@
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #b68973;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  font-family: sans-serif;
+  color: #1e212d;
+}
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 50px;
+  text-align: center;
+}
+.counter {
+  font-size: 60px;
+  margin-top: 10px;
+}
+@media (max-width: 500px) {
+  body{
+    flex-direction: column;
+  }
+}
